@@ -10,8 +10,8 @@ public class mariadbConnection {
     private String driverName = "org.mariadb.jdbc.Driver";
     private String jdbc = "jdbc:mariadb://";
     private String host = "localhost:";
-    private String port = "5000/";
-    private String database = "hotel";
+    private String port = "3306/";
+    private String database = "Database";
     private String url = jdbc + host + port + database;
     private String username = "?user=root";
     private String password = "&password=";
